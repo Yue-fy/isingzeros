@@ -1,0 +1,1057 @@
+{
+ "backend": "IQMFakeAphroditeBackend",
+ "note": "IQM Aphrodite 54-qubit FAKE backend from iqm-client: a hardware PROXY, not production Euro-Q-Exa calibration or topology",
+ "rings": [
+  {
+   "L": 6,
+   "M": 3,
+   "cz_routed": 36,
+   "cz_expected_ring": 36,
+   "all_bonds_on_couplers": true,
+   "mapping": [
+    {
+     "logical": [
+      0,
+      1
+     ],
+     "physical": [
+      4,
+      5
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      1,
+      2
+     ],
+     "physical": [
+      5,
+      11
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      2,
+      3
+     ],
+     "physical": [
+      11,
+      19
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      3,
+      4
+     ],
+     "physical": [
+      18,
+      19
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      4,
+      5
+     ],
+     "physical": [
+      10,
+      18
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      5,
+      0
+     ],
+     "physical": [
+      4,
+      10
+     ],
+     "is_coupler": true
+    }
+   ]
+  },
+  {
+   "L": 8,
+   "M": 3,
+   "cz_routed": 48,
+   "cz_expected_ring": 48,
+   "all_bonds_on_couplers": true,
+   "mapping": [
+    {
+     "logical": [
+      0,
+      1
+     ],
+     "physical": [
+      4,
+      5
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      1,
+      2
+     ],
+     "physical": [
+      5,
+      11
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      2,
+      3
+     ],
+     "physical": [
+      11,
+      19
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      3,
+      4
+     ],
+     "physical": [
+      18,
+      19
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      4,
+      5
+     ],
+     "physical": [
+      17,
+      18
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      5,
+      6
+     ],
+     "physical": [
+      9,
+      17
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      6,
+      7
+     ],
+     "physical": [
+      9,
+      10
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      7,
+      0
+     ],
+     "physical": [
+      4,
+      10
+     ],
+     "is_coupler": true
+    }
+   ]
+  },
+  {
+   "L": 12,
+   "M": 3,
+   "cz_routed": 72,
+   "cz_expected_ring": 72,
+   "all_bonds_on_couplers": true,
+   "mapping": [
+    {
+     "logical": [
+      0,
+      1
+     ],
+     "physical": [
+      4,
+      5
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      1,
+      2
+     ],
+     "physical": [
+      5,
+      11
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      2,
+      3
+     ],
+     "physical": [
+      11,
+      12
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      3,
+      4
+     ],
+     "physical": [
+      12,
+      20
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      4,
+      5
+     ],
+     "physical": [
+      19,
+      20
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      5,
+      6
+     ],
+     "physical": [
+      18,
+      19
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      6,
+      7
+     ],
+     "physical": [
+      17,
+      18
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      7,
+      8
+     ],
+     "physical": [
+      16,
+      17
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      8,
+      9
+     ],
+     "physical": [
+      8,
+      16
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      9,
+      10
+     ],
+     "physical": [
+      8,
+      9
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      10,
+      11
+     ],
+     "physical": [
+      9,
+      10
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      11,
+      0
+     ],
+     "physical": [
+      4,
+      10
+     ],
+     "is_coupler": true
+    }
+   ]
+  },
+  {
+   "L": 16,
+   "M": 3,
+   "cz_routed": 96,
+   "cz_expected_ring": 96,
+   "all_bonds_on_couplers": true,
+   "mapping": [
+    {
+     "logical": [
+      0,
+      1
+     ],
+     "physical": [
+      4,
+      5
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      1,
+      2
+     ],
+     "physical": [
+      5,
+      11
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      2,
+      3
+     ],
+     "physical": [
+      11,
+      12
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      3,
+      4
+     ],
+     "physical": [
+      12,
+      20
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      4,
+      5
+     ],
+     "physical": [
+      19,
+      20
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      5,
+      6
+     ],
+     "physical": [
+      18,
+      19
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      6,
+      7
+     ],
+     "physical": [
+      17,
+      18
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      7,
+      8
+     ],
+     "physical": [
+      17,
+      25
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      8,
+      9
+     ],
+     "physical": [
+      24,
+      25
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      9,
+      10
+     ],
+     "physical": [
+      16,
+      24
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      10,
+      11
+     ],
+     "physical": [
+      8,
+      16
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      11,
+      12
+     ],
+     "physical": [
+      2,
+      8
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      12,
+      13
+     ],
+     "physical": [
+      2,
+      3
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      13,
+      14
+     ],
+     "physical": [
+      3,
+      9
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      14,
+      15
+     ],
+     "physical": [
+      9,
+      10
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      15,
+      0
+     ],
+     "physical": [
+      4,
+      10
+     ],
+     "is_coupler": true
+    }
+   ]
+  },
+  {
+   "L": 24,
+   "M": 3,
+   "cz_routed": 144,
+   "cz_expected_ring": 144,
+   "all_bonds_on_couplers": true,
+   "mapping": [
+    {
+     "logical": [
+      0,
+      1
+     ],
+     "physical": [
+      4,
+      5
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      1,
+      2
+     ],
+     "physical": [
+      5,
+      11
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      2,
+      3
+     ],
+     "physical": [
+      11,
+      12
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      3,
+      4
+     ],
+     "physical": [
+      12,
+      20
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      4,
+      5
+     ],
+     "physical": [
+      19,
+      20
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      5,
+      6
+     ],
+     "physical": [
+      18,
+      19
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      6,
+      7
+     ],
+     "physical": [
+      17,
+      18
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      7,
+      8
+     ],
+     "physical": [
+      17,
+      25
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      8,
+      9
+     ],
+     "physical": [
+      25,
+      26
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      9,
+      10
+     ],
+     "physical": [
+      26,
+      27
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      10,
+      11
+     ],
+     "physical": [
+      27,
+      35
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      11,
+      12
+     ],
+     "physical": [
+      34,
+      35
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      12,
+      13
+     ],
+     "physical": [
+      33,
+      34
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      13,
+      14
+     ],
+     "physical": [
+      32,
+      33
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      14,
+      15
+     ],
+     "physical": [
+      24,
+      32
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      15,
+      16
+     ],
+     "physical": [
+      23,
+      24
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      16,
+      17
+     ],
+     "physical": [
+      15,
+      23
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      17,
+      18
+     ],
+     "physical": [
+      15,
+      16
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      18,
+      19
+     ],
+     "physical": [
+      8,
+      16
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      19,
+      20
+     ],
+     "physical": [
+      2,
+      8
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      20,
+      21
+     ],
+     "physical": [
+      2,
+      3
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      21,
+      22
+     ],
+     "physical": [
+      3,
+      9
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      22,
+      23
+     ],
+     "physical": [
+      9,
+      10
+     ],
+     "is_coupler": true
+    },
+    {
+     "logical": [
+      23,
+      0
+     ],
+     "physical": [
+      4,
+      10
+     ],
+     "is_coupler": true
+    }
+   ]
+  }
+ ],
+ "num_qubits": 54,
+ "couplers": 90,
+ "native_ops": [
+  "id",
+  "delay",
+  "measure",
+  "r",
+  "cz"
+ ],
+ "rows": [
+  {
+   "case": "A chain L=8 M=3",
+   "L": 8,
+   "M": 3,
+   "W": 1,
+   "qubits": 8,
+   "cz_abstract": 48,
+   "depth_abstract": 56,
+   "cz_routed": 48,
+   "depth_routed": 39,
+   "swap_overhead_cz": 0,
+   "ops_routed": {
+    "r": 160,
+    "cz": 48,
+    "measure": 8
+   }
+  },
+  {
+   "case": "A chain L=12 M=4",
+   "L": 12,
+   "M": 4,
+   "W": 1,
+   "qubits": 12,
+   "cz_abstract": 96,
+   "depth_abstract": 74,
+   "cz_routed": 96,
+   "depth_routed": 51,
+   "swap_overhead_cz": 0,
+   "ops_routed": {
+    "r": 312,
+    "cz": 96,
+    "measure": 12
+   }
+  },
+  {
+   "case": "A chain L=16 M=4",
+   "L": 16,
+   "M": 4,
+   "W": 1,
+   "qubits": 16,
+   "cz_abstract": 128,
+   "depth_abstract": 74,
+   "cz_routed": 128,
+   "depth_routed": 51,
+   "swap_overhead_cz": 0,
+   "ops_routed": {
+    "r": 416,
+    "cz": 128,
+    "measure": 16
+   }
+  },
+  {
+   "case": "A chain L=24 M=4",
+   "L": 24,
+   "M": 4,
+   "W": 1,
+   "qubits": 24,
+   "cz_abstract": 192,
+   "depth_abstract": 74,
+   "cz_routed": 192,
+   "depth_routed": 51,
+   "swap_overhead_cz": 0,
+   "ops_routed": {
+    "r": 624,
+    "cz": 192,
+    "measure": 24
+   }
+  },
+  {
+   "case": "A slab 2x8 M=3",
+   "L": 8,
+   "M": 3,
+   "W": 2,
+   "qubits": 16,
+   "cz_abstract": 144,
+   "depth_abstract": 81,
+   "cz_routed": 180,
+   "depth_routed": 98,
+   "swap_overhead_cz": 36,
+   "ops_routed": {
+    "r": 498,
+    "cz": 180,
+    "measure": 16
+   }
+  },
+  {
+   "case": "A slab 3x8 M=3",
+   "L": 8,
+   "M": 3,
+   "W": 3,
+   "qubits": 24,
+   "cz_abstract": 240,
+   "depth_abstract": 93,
+   "cz_routed": 398,
+   "depth_routed": 184,
+   "swap_overhead_cz": 158,
+   "ops_routed": {
+    "r": 1019,
+    "cz": 398,
+    "measure": 24
+   }
+  },
+  {
+   "case": "A slab 2x12 M=4",
+   "L": 12,
+   "M": 4,
+   "W": 2,
+   "qubits": 24,
+   "cz_abstract": 288,
+   "depth_abstract": 108,
+   "cz_routed": 375,
+   "depth_routed": 143,
+   "swap_overhead_cz": 87,
+   "ops_routed": {
+    "r": 997,
+    "cz": 375,
+    "measure": 24
+   }
+  },
+  {
+   "case": "B LCU L=6 M=3 a=0.1 (MCM)",
+   "L": 6,
+   "M": 3,
+   "W": 1,
+   "a": 0.1,
+   "qubits": 7,
+   "cz_abstract": 72,
+   "depth_abstract": 223,
+   "cz_routed": 123,
+   "depth_routed": 257,
+   "swap_overhead_cz": 51,
+   "ops_routed": {
+    "r": 285,
+    "cz": 123,
+    "measure": 24,
+    "reset": 18
+   }
+  },
+  {
+   "case": "B LCU L=8 M=3 a=0.1 (MCM)",
+   "L": 8,
+   "M": 3,
+   "W": 1,
+   "a": 0.1,
+   "qubits": 9,
+   "cz_abstract": 96,
+   "depth_abstract": 295,
+   "cz_routed": 192,
+   "depth_routed": 368,
+   "swap_overhead_cz": 96,
+   "ops_routed": {
+    "r": 412,
+    "cz": 192,
+    "measure": 32,
+    "reset": 24
+   }
+  },
+  {
+   "case": "B LCU L=4 M=2 a=0.1 (deferred)",
+   "L": 4,
+   "M": 2,
+   "W": 1,
+   "a": 0.1,
+   "qubits": 12,
+   "cz_abstract": 32,
+   "depth_abstract": 80,
+   "cz_routed": 54,
+   "depth_routed": 109,
+   "swap_overhead_cz": 22,
+   "ops_routed": {
+    "r": 148,
+    "cz": 54,
+    "measure": 12
+   }
+  },
+  {
+   "case": "B LCU L=6 M=3 a=0.02 (MCM, no reset)",
+   "L": 6,
+   "M": 3,
+   "W": 1,
+   "a": 0.02,
+   "qubits": 7,
+   "cz_abstract": 72,
+   "depth_abstract": 207,
+   "cz_routed": 123,
+   "depth_routed": 253,
+   "swap_overhead_cz": 51,
+   "ops_routed": {
+    "r": 283,
+    "cz": 123,
+    "measure": 24
+   }
+  },
+  {
+   "case": "B LCU L=6 M=3 a=0.02 (deferred, 24 qubits; sign test without MCM)",
+   "L": 6,
+   "M": 3,
+   "W": 1,
+   "a": 0.02,
+   "qubits": 24,
+   "cz_abstract": 72,
+   "depth_abstract": 166,
+   "cz_routed": 146,
+   "depth_routed": 256,
+   "swap_overhead_cz": 74,
+   "ops_routed": {
+    "r": 344,
+    "cz": 146,
+    "measure": 24
+   }
+  },
+  {
+   "case": "A chain L=6 M=3 (Fejer-Riesz scan, WP3a)",
+   "L": 6,
+   "M": 3,
+   "W": 1,
+   "qubits": 6,
+   "cz_abstract": 36,
+   "depth_abstract": 56,
+   "cz_routed": 36,
+   "depth_routed": 39,
+   "swap_overhead_cz": 0,
+   "ops_routed": {
+    "r": 120,
+    "cz": 36,
+    "measure": 6
+   }
+  },
+  {
+   "case": "C Hadamard L=4 M=2",
+   "L": 4,
+   "M": 2,
+   "W": 1,
+   "qubits": 5,
+   "cz_abstract": 120,
+   "depth_abstract": 429,
+   "cz_routed": 177,
+   "depth_routed": 447,
+   "swap_overhead_cz": 57,
+   "ops_routed": {
+    "r": 524,
+    "cz": 177,
+    "measure": 1
+   }
+  },
+  {
+   "case": "noisy A chain L=8 M=3 (Aphrodite error profile)",
+   "L": 8,
+   "M": 3,
+   "W": 1,
+   "qubits": 8,
+   "cz_routed": 48,
+   "depth_routed": 26,
+   "p_noisy": 0.0244,
+   "p_exact": 0.09197897144066951,
+   "ratio": 0.2652780262468914
+  },
+  {
+   "case": "noisy A chain L=8 M=4 (Aphrodite error profile)",
+   "L": 8,
+   "M": 4,
+   "W": 1,
+   "qubits": 8,
+   "cz_routed": 64,
+   "depth_routed": 34,
+   "p_noisy": 0.00575,
+   "p_exact": 0.0016893785595162177,
+   "ratio": 3.403618429753607
+  }
+ ]
+}

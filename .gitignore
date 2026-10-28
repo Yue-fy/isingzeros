@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+logs/
+jobs/
+results/verify_smoke/
+*.tmp

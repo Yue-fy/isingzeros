@@ -1,0 +1,49 @@
+{
+ "params": {
+  "budget": "results/budget.csv",
+  "out": "results/request.json",
+  "shot_ms": 1.0,
+  "circuit_s": 2.5,
+  "twirls": 4,
+  "contingency": 0.2,
+  "n_qubits": 53,
+  "gate_ratio": 1.0
+ },
+ "items": [
+  {
+   "item": "Base plan",
+   "circuits": 1876,
+   "shots": 11844693,
+   "shot_h": 3.2901925
+  },
+  {
+   "item": "Noise amplification",
+   "circuits": 1408,
+   "shots": 3868536,
+   "shot_h": 1.0745933333333333
+  },
+  {
+   "item": "Calibration",
+   "circuits": 90,
+   "shots": 1000000,
+   "shot_h": 0.2777777777777778
+  },
+  {
+   "item": "Repeats",
+   "circuits": 188,
+   "shots": 1184469,
+   "shot_h": 0.3290191666666667
+  }
+ ],
+ "shots_total": 17897698,
+ "shot_hours": 4.971582777777778,
+ "circuits": 3562,
+ "overhead_hours": 2.473611111111111,
+ "subtotal_hours": 7.445193888888889,
+ "contingency_hours": 1.489038777777778,
+ "total_hours": 8.934232666666666,
+ "request_hours": 9,
+ "request_eqs": 1717200.0,
+ "core_hours": 3.441835833333333,
+ "core_eqs": 656702.277
+}
